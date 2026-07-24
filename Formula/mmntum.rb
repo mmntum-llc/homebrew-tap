@@ -7,22 +7,22 @@ class Mmntum < Formula
   on_macos do
     on_intel do
       url "https://shiftstack.ai/dl/mmntum/v0.10.0/mmntum_darwin_amd64"
-      sha256 "ec6ea86f1686e5ccb2dc07f9943c19c7d76c51b85f69b7b63d4d9efc2959ba94"
+      sha256 "354a608fe6a37c91f9469261d0f2093721c8ea1270ee8396ee3ec1754273586a"
     end
     on_arm do
       url "https://shiftstack.ai/dl/mmntum/v0.10.0/mmntum_darwin_arm64"
-      sha256 "a2a6acbdc01e8a726b9e8e59965fa4389fe9a6302bb5775580e0624da9afdc4b"
+      sha256 "97a01dfeda654695b429d6652d149605936dfb42cc26fc78a09e1938695e96f5"
     end
   end
 
   on_linux do
     on_intel do
       url "https://shiftstack.ai/dl/mmntum/v0.10.0/mmntum_linux_amd64"
-      sha256 "a8e7287c84b27a383cecbd38fde888c065dee7e5ee343e52c4a62d9a611f900b"
+      sha256 "24437442a2ba9f4df6d3e5e591c6867d2622b4a43de8e76f3e3cda21f3b5983d"
     end
     on_arm do
       url "https://shiftstack.ai/dl/mmntum/v0.10.0/mmntum_linux_arm64"
-      sha256 "50c9ede57e1756dba0bd6d1548639eae457380b9f677d95de9f581ad33e26fef"
+      sha256 "1b28f709088ee36f5cd9eed8c9b56de3e449db49c957e6c382497ad2697546f2"
     end
   end
 
