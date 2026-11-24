@@ -1,28 +1,28 @@
 class Mmntum < Formula
   desc "MMNTUM operator CLI — integrations tooling and MCP server for AI agents"
   homepage "https://mmntum.ai"
-  version "0.27.0"
+  version "0.28.0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://shiftstack.ai/dl/mmntum/v0.27.0/mmntum_darwin_amd64"
-      sha256 "f72dcae7fb632f998fad450e6e67a1da24757d83ef66fae056286d8c0a34d639"
+      url "https://shiftstack.ai/dl/mmntum/v0.28.0/mmntum_darwin_amd64"
+      sha256 "3bb3a33c292c4e96e732fb8bc15ac0cd511ea4f514195b23ff0d92c5d56f95c7"
     end
     on_arm do
-      url "https://shiftstack.ai/dl/mmntum/v0.27.0/mmntum_darwin_arm64"
-      sha256 "2be9e4d177d4d50f2bd518fd28c966bc4cd4497201f1b1403807568e2c8d488b"
+      url "https://shiftstack.ai/dl/mmntum/v0.28.0/mmntum_darwin_arm64"
+      sha256 "31bd3e36b53eabb5aeaa391aa742433273cd8685bd0ccdaa32f529e66466f1a0"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://shiftstack.ai/dl/mmntum/v0.27.0/mmntum_linux_amd64"
-      sha256 "ade80c9b203b9a3cdd587931760a7226f51bda7593a964685d6cbc803a6f9312"
+      url "https://shiftstack.ai/dl/mmntum/v0.28.0/mmntum_linux_amd64"
+      sha256 "e1aa43e99046767cfe2a6ff78f0484f9b7d89f4b00c7f9e0576cd3137acc371c"
     end
     on_arm do
-      url "https://shiftstack.ai/dl/mmntum/v0.27.0/mmntum_linux_arm64"
-      sha256 "d674dc0b98f442bac07acc4f32c8e4227c7911a55e07c986877c83e9c8916470"
+      url "https://shiftstack.ai/dl/mmntum/v0.28.0/mmntum_linux_arm64"
+      sha256 "19360bc7d0576cb70284f92d34062253b57c36bddc7fb93afdb18d95bc68c488"
     end
   end
 
